@@ -20,7 +20,7 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    uses: test/.github/workflows@v3
+    uses: test/.github/workflows/blank22.yml
     -name: fail
     run: |
            exit 0
