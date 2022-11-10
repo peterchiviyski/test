@@ -22,5 +22,5 @@ jobs:
     steps:
     uses: test/.github/workflows
     -name: fail
-        run: 
+    run: |
            exit 0
